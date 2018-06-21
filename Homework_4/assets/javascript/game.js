@@ -24,7 +24,7 @@ $(document).ready(function() {
     if (playersScore === randomNum);
     wins++;
     $('#wins').text("Wins: " + wins);
-    alert('You won!');
+    alert('You won!!');
     reset();
   }
   
@@ -97,7 +97,7 @@ $(document).ready(function() {
     })
   
   // Reset function: Generate a new random numbers as well as reset the players score but not our wins/losses scoreboard
-  
+
     function reset(){
     randomNum = Math.floor((Math.random() * 120) + 19);
     $('#score').text(randomNum);
