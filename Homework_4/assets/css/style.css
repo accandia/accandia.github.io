@@ -1,0 +1,91 @@
+body {
+	background-color: azure
+}
+
+.header {
+	background-color: rgb(68, 110, 150);
+	width: 45%;
+	height: auto;
+	margin-left: 10px;
+}
+
+
+.instructions {
+	width: 45%;
+	height: auto;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.instructions p {
+	color: rgb(68, 110, 150);
+	font-size: 20px;
+}
+
+.gameflow {
+	width: 400px;
+
+}
+
+#score, .scoreboard {
+	height: 150px;
+	width: 150px;
+	background-color: rgb(35, 124, 184);
+	margin-left: 10px;
+	float: left;
+	
+}
+
+#score {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+
+
+.scoreboard {
+	background-color: rgb(97, 37, 37);
+  font-size: 20px;
+  color: white
+
+
+}
+
+.crystals {
+	width: auto;
+	height: auto;
+	margin-left: 1px;
+	clear: both;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	clear: both;
+	margin-top: 10px;
+}
+
+
+#player-heading {
+	background-color: rgba(3, 6, 59, 0.342);
+	width: 45%;
+	height: auto;
+	margin: 10px;
+	color: white;
+	font-size: 20px;
+	
+	}
+
+#players-score {
+	background-color: rgba(3, 6, 59, 0.342);
+	width: 45%;
+	height: 75px;
+	margin: 10px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	padding: 15px;
+
+}
